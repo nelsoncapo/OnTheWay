@@ -25,3 +25,22 @@
     </MasterDetailPage.Detail>
     
 </MasterDetailPage>
+Public Main Page ()  
+<Grid> 
+<Grid.Rowdefinitions>
+   <Rowdefinition Height="3.333*"></Rowdefinition>
+   <Rowdefinition Height="3.333*"></Rowdefinition>
+   <Rowdefinition Height="3.333*"></Rowdefinition><
+ </Grid.Rowdefinitions>
+
+ <Stacklayout Grid.Row "1">
+ <Label x:Name="txtLat"></Label>
+ <Label x:Name="txtLong"></Label>
+ <Button x:Name="btnCurrentlocation" ><Button>
+
+ </Stacklayout>
+
+
+</Grid>
+
+</Contentpage>
